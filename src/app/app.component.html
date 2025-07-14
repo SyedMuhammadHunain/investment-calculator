@@ -1,3 +1,6 @@
 <app-header />
 
-<app-user-input />
+<!---When calculate signal is sent listen to onCalculateInvestmentResults Function--->
+<app-user-input (calculate)="onCalculateInvestmentResults($event)"/>
+
+<app-investment-result/>
